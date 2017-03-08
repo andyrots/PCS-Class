@@ -1,0 +1,15 @@
+ use school
+ load('C:/Users/andyrots/Documents/HW_71/students.js')
+ db.students.insert(Joe)
+ db.students.insert(Don1)
+ db.students.insert(James)
+ db.students.insert(Don2)
+ db.students.insert(Arthur)
+ db.students.find({fName: "Donald"})
+ db.students.find({fName: "Donald", grade: 5})
+ 
+ use store
+ load('C:/Users/andyrots/Documents/HW_71/products.js')
+ db.products.insert(theProducts)
+ db.products.find()
+ db.products.remove({})
