@@ -1,0 +1,16 @@
+{{#posts}}
+<div id="{{_id}}">
+    <h2>{{title}}</h2>
+    <h3>by {{author}} at {{date}}</h3>
+    <div>{{content}}</div>
+
+    {{#comments}}
+        <div class="comment">
+            <div>{{content}}</div>
+            <div class="attribution">Posted by {{author}} at {{date}}</div>
+        </div>
+    {{/comments}}
+    <button class = "addComment">Add Comment</button>
+    
+</div>
+{{/posts}}
