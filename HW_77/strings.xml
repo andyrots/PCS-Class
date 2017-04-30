@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TipCalculator</string>
+    <string name="myButtonString">Submit</string>
+    <string name="myTipString">Tip</string>
+    <string name="myPercentageString">Percentage</string>
+    <string name="myTotalString">Total</string>
+    <string name="myResetString">Reset</string>
+</resources>
